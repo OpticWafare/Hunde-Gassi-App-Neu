@@ -13,7 +13,7 @@ public class SendToServletTask extends AsyncTask<String, Void, String> {
     private String servletName;
     private String urlParameters;
 
-    private static String serverIPAddress = "10.0.2.2";
+    private static String serverIPAddress = "192.168.1.125";
     private static int serverPort = 8080;
     private static String serverName = "HundeGassiServer";
 
